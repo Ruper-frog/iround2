@@ -1,0 +1,22 @@
+app:
+  s3:
+    endpoint: http://localhost:9000
+    region: us-east-1
+    access-key: minioadmin
+    secret-key: minioadmin
+    path-style-access: true
+    allowed-buckets:
+      - my-local-bucket
+    temp-download-dir: ${java.io.tmpdir}/nexus-pusher-downloads
+  nexus:
+    base-url: http://localhost:8081
+    repository: nexus-pusher-raw
+    username: admin
+    password: password
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
