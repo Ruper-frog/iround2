@@ -1,4 +1,4 @@
-rootProject.name = "my-ms"
+rootProject.name = "iround2"
 
 include("my_gb")
 
