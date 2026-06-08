@@ -42,11 +42,4 @@ class RabbitConfig {
         factory.setMessageConverter(converter)
         return factory
     }
-
-    @Bean
-    fun testBean(): String {
-        println("RABBIT CONFIG LOADED")
-        return "ok"
-    }
-
 }

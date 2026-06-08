@@ -1,6 +1,6 @@
 rootProject.name = "my-ms"
 
-include("my_gb")
+include("group_builder")
 
 include("dtos")
 include("configurations")

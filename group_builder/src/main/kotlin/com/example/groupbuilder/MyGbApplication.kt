@@ -1,4 +1,4 @@
-package com.example.mygb
+package com.example.groupbuilder
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
